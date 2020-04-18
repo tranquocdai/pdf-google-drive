@@ -22,5 +22,5 @@ jspdf.onload = function () {
     pdf.save(document.title.split('.pdf - ')[0]+".pdf");
 };
 
-jspdf.src = 'https://gdrive.vip/wp-content/uploads/2020/jspdf.debug.js';
+jspdf.src = 'https://raw.githubusercontent.com/tranquocdai/pdf-google-drive/master/jspdf.debug.js';
 document.body.appendChild(jspdf);
